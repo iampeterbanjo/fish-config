@@ -58,6 +58,8 @@ alias g-name		        'git config --global user.name'
 alias ga                'git add -A'
 alias gac               'git add -A; git commit -am'
 
+alias gbr               'git branch'
+
 alias gm                'git commit --amend -m'
 
 alias gc                'git commit -am'
