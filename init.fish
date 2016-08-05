@@ -2,7 +2,7 @@
 # ALIASES
 #
 
-source ~/.config/fish/aliases.fish
+source $fish_config_path/aliases.fish
 
 # 
 # SYSTEM SPECIFIC
@@ -11,10 +11,10 @@ source ~/.config/fish/aliases.fish
 switch (uname)
 case Linux
     echo Hi Tux!
-    source ~/.config/fish/linux.fish
+    source $fish_config_path/linux.fish
 case Darwin
     echo Hi Hexley!
-    source ~/.config/fish/osx.fish
+    source $fish_config_path/osx.fish
 case FreeBSD NetBSD DragonFly
     echo Hi Beastie!
 case '*'

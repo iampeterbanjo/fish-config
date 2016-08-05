@@ -33,9 +33,9 @@ alias sshaddkey		      'ssh-agent -s; ssh-add'
 #
 
 alias sudo              'sudo '
-alias aliases           'cat fish_config/init.fish'
-alias editfish          'editor ~/.config/fish/config.fish'
-alias reloadfish        'source ~/.config/fish/config.fish'
+alias aliases           'cat $fish_config_path/aliases.fish'
+alias editfish          'editor $fish_config_path/config.fish'
+alias reloadfish        'source $fish_config_path/config.fish'
 alias edithosts         'sudo editor /etc/hosts'
 alias sudo              'sudo '
 alias l                 'ls -la'
@@ -57,6 +57,8 @@ alias g-name		        'git config --global user.name'
 
 alias ga                'git add -A'
 alias gac               'git add -A; git commit -am'
+alias guau 		'git update-index --assume-unchanged'
+alias gunu 		'git update-index --no-assume-unchanged'
 
 alias gbr               'git branch'
 
@@ -66,13 +68,34 @@ alias gc                'git commit -am'
 alias gcl               'git clone'
 alias gco               'git checkout'
 alias gcob              'git checkout -br'
+# git restore file from last checkout
+alias gcof 		'git checkout -- ' #file
 
 alias gd                'git diff'
-alias gs                'git status'
+
+# git log graph
+alias gl		'git log'
+alias glg 		'git log --oneline --graph --all --decorate'
 
 alias gp                'git push -u --all'
 alias gpl               'git pull'
-alias gpom		          'git push -u origin master'
+alias gpom		'git push -u origin master'
+
+alias grro		'git remote rm origin '
+alias grao 		'git remove add origin '
+
+# reset to origin/undo git merge
+alias gzmerge		'git reset --hard ORIG_HEAD'
+
+# undo last commit
+alias gzc		'git reset --soft HEAD^'
+# redo last commit
+alias gzzc		'git commit -a -c ORIG_HEAD'
+
+alias gs                'git status'
+
+alias gss		'git stash save ' #message
+alias gsl		'git stash list'
 
 alias gco-pages         'git checkout -b gh-pages'
 alias gp-pages          'git push origin gh-pages'
