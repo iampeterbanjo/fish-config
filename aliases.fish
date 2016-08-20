@@ -77,7 +77,7 @@ alias gd                'git diff'
 alias gl		'git log'
 alias glg 		'git log --oneline --graph --all --decorate'
 
-alias gp                'git push -u --all'
+alias gp                'git push'
 alias gpl               'git pull'
 alias gpom		'git push -u origin master'
 
