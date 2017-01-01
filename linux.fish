@@ -1,5 +1,6 @@
 alias editor            gedit
-alias top-mc		        'top -o mem -O cpu'
+alias top-mc			'top -o mem -O cpu'
+alias code				'/usr/share/code/code'
 
 alias eprofile		      'editor ~/.profile'
 alias copypwd		        'copyq add (pwd)'
