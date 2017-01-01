@@ -2,7 +2,7 @@
 # EDITORS
 #
 
-alias code 		    'Code'
+alias code 		    '/usr/share/code/code'
 
 #
 # SYSTEM
@@ -57,8 +57,8 @@ alias g-name		        'git config --global user.name'
 
 alias ga                'git add -A'
 alias gac               'git add -A; git commit -am'
-alias guau 		'git update-index --assume-unchanged'
-alias gunu 		'git update-index --no-assume-unchanged'
+alias guau 		          'git update-index --assume-unchanged'
+alias gunu 		          'git update-index --no-assume-unchanged'
 
 alias gbr               'git branch'
 

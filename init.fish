@@ -1,10 +1,10 @@
-# 
+#
 # ALIASES
 #
 
 source $fish_config_path/aliases.fish
 
-# 
+#
 # SYSTEM SPECIFIC
 #
 
