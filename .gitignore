@@ -3,3 +3,5 @@ fishd.*
 fish_history
 theme
 functions/
+completions/
+conf.d/
