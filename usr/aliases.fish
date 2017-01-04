@@ -1,3 +1,5 @@
+echo 'Setting aliases'
+
 #
 # EDITORS
 #

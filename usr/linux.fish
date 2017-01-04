@@ -1,3 +1,5 @@
+echo 'Setting osx aliases'
+
 alias editor            gedit
 alias top-mc			'top -o mem -O cpu'
 alias code				'/usr/share/code/code'
