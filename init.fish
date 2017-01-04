@@ -5,6 +5,13 @@
 source $fish_config_path/aliases.fish
 
 #
+# OTHER
+#
+
+# go get github.com/direnv/direnv
+eval (direnv hook fish)
+
+#
 # SYSTEM SPECIFIC
 #
 
