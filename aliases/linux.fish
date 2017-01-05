@@ -1,4 +1,4 @@
-echo 'Setting osx aliases'
+echo 'Setting linux aliases'
 
 alias editor            gedit
 alias top-mc			'top -o mem -O cpu'
