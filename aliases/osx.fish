@@ -1,5 +1,5 @@
 echo 'Setting osx aliases'
 
-alias editor		'vim '
-alias sublime		'open -a Sublime\ Text'
+alias editor          'vim '
+alias sublime         'open -a Sublime\ Text'
 
