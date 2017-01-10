@@ -76,7 +76,7 @@ alias gcof              'git checkout -- ' #file
 alias gd                'git diff'
 
 # git log graph
-alias gl                'git log'
+alias gl                'git log --oneline'
 alias glg               'git log --oneline --graph --all --decorate'
 
 alias gp                'git push'
