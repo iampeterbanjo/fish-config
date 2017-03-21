@@ -11,6 +11,7 @@ alias ssh-copy          'copyq add (cat ~/.ssh/id_rsa.pub)'
 alias egeany            'editor ~/.config/geany/geany.conf'
 alias sublime           'sublime_text '
 
+
 #
 # DIRECTORIES
 #
@@ -18,6 +19,20 @@ alias sublime           'sublime_text '
 alias cd-downloads      'cd ~/Downloads'
 alias cd-desktop        'cd ~/Desktop'
 alias cd-home           'cd ~/'
-alias cd-projects       'cd /media/iampeterbanjo/data/projects'
+alias cd-programs       'cd /media/iampeterbanjo/data/programs'
 alias cd-clients        'cd /media/iampeterbanjo/data/clients'
 
+
+#
+# SERVICES
+#
+
+alias postgres_start    '/home/iampeterbanjo/.asdf/installs/postgres/9.6.1/bin/pg_ctl -D /home/iampeterbanjo/.asdf/installs/postgres/9.6.1/data -l logfile start'
+
+
+#
+# CLIPBOARD
+#
+
+alias setclip			'xclip -selection c'
+alias getclip			'xclip -selection clipboard -o'
