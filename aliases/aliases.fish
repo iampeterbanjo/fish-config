@@ -87,7 +87,10 @@ alias grro              'git remote rm origin '
 alias grao              'git remove add origin '
 
 # reset to origin/undo git merge
-alias gzmerge           'git reset --hard ORIG_HEAD'
+alias gzmh              'git reset --hard ORIG_HEAD'
+
+# undo merge of commite using hash
+alias gzmh              'git revert -m 1'
 
 # undo last commit
 alias gzc               'git reset --soft HEAD^'
