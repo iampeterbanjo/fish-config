@@ -80,6 +80,7 @@ alias gl                'git log --oneline'
 alias glg               'git log --oneline --graph --all --decorate'
 
 alias gp                'git push'
+alias gpu								'git push -u origin (git rev-parse --abbrev-ref HEAD)'
 alias gpl               'git pull'
 alias gpom              'git push -u origin master'
 
