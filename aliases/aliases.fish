@@ -63,6 +63,8 @@ alias guau              'git update-index --assume-unchanged'
 alias gunu              'git update-index --no-assume-unchanged'
 
 alias gbr               'git branch'
+# checkout branches using fzf search
+alias gbrco             'git branch | fzf | string trim | read -l result; and gco $result'
 
 alias gm                'git commit --amend -m'
 
@@ -80,7 +82,7 @@ alias gl                'git log --oneline'
 alias glg               'git log --oneline --graph --all --decorate'
 
 alias gp                'git push'
-alias gpu								'git push -u origin (git rev-parse --abbrev-ref HEAD)'
+alias gpo               'git push -u origin (git rev-parse --abbrev-ref HEAD)'
 alias gpl               'git pull'
 alias gpom              'git push -u origin master'
 
