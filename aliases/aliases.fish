@@ -63,6 +63,8 @@ alias guau              'git update-index --assume-unchanged'
 alias gunu              'git update-index --no-assume-unchanged'
 
 alias gbr               'git branch'
+# checkout branches using fzf search
+alias gbrco             'git branch | fzf | string trim | read -l result; and gco $result'
 
 alias gm                'git commit --amend -m'
 
