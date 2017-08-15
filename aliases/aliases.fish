@@ -63,6 +63,7 @@ alias guau              'git update-index --assume-unchanged'
 alias gunu              'git update-index --no-assume-unchanged'
 
 alias gbr               'git branch'
+alias gbrso             'git branch --set-upstream-to=origin/(git rev-parse --abbrev-ref HEAD) bugfix/CIR-16693-file-import-setting'
 # checkout branches using fzf search
 alias gbrco             'git branch | fzf | string trim | read -l result; and gco $result'
 
