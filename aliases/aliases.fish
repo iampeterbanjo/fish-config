@@ -83,7 +83,7 @@ alias gl                'git log --oneline'
 alias glg               'git log --oneline --graph --all --decorate'
 
 alias gp                'git push'
-alias gpo               'git push -u origin (git rev-parse --abbrev-ref HEAD)'
+alias gpo								'git push -u origin (git rev-parse --abbrev-ref HEAD)'
 alias gpl               'git pull'
 alias gpom              'git push -u origin master'
 
@@ -130,6 +130,23 @@ alias vu                'vagrant up'
 alias vh                'vagrant halt'
 alias vr                'vagrant reload'
 alias vbu               'vagrant box update'
+
+#
+# DOCKER
+#
+
+alias dkrb                  'docker build'
+alias dkrr                  'docker run'
+alias dkrps                 'docker ps -l'
+
+# remove exited containers:
+alias dkr-prune-containers  'docker ps --filter status=dead --filter status=exited -aq | xargs -r docker rm -v'
+
+# remove unused volumes:
+alias dkr-prune-volumes     'docker volume ls -qf dangling=true | xargs -r docker volume rm'
+
+# remove unused images:
+alias dkr-prune-images      'docker images --no-trunc | grep "<none>" | awk "{ print $3 }" | xargs -r docker rmi'
 
 #
 # OTHER
