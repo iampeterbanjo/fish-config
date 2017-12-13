@@ -5,8 +5,8 @@ alias top-mc            'top -o mem -O cpu'
 alias code              '/usr/share/code/code'
 
 alias eprofile          'editor ~/.profile'
-alias copypwd           'copyq add (pwd)'
-alias ssh-copy          'copyq add (cat ~/.ssh/id_rsa.pub)'
+alias copypwd           'pwd | clipit'
+alias ssh-copy          'cat ~/.ssh/id_rsa.pub | clipit'
 
 alias egeany            'editor ~/.config/geany/geany.conf'
 alias sublime           'sublime_text '
