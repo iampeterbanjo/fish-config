@@ -36,3 +36,6 @@ alias postgres_start    '/home/iampeterbanjo/.asdf/installs/postgres/9.6.1/bin/p
 
 alias setclip			'xclip -selection c'
 alias getclip			'xclip -selection clipboard -o'
+
+# create new desktop launcher
+alias create-desktop 'gnome-desktop-item-edit --create-new ~/.local/share/applications/' 
