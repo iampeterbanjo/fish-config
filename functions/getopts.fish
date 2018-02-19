@@ -1,0 +1,1 @@
+/home/peterbanjo/.config/fisherman/getopts/getopts.fish

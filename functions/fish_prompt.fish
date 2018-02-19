@@ -1,0 +1,1 @@
+/home/peterbanjo/.config/fisherman/dartfish/fish_prompt.fish

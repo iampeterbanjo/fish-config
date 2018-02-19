@@ -1,0 +1,1 @@
+/home/peterbanjo/.config/fisherman/get/functions/get.fish

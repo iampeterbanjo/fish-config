@@ -1,0 +1,1 @@
+/home/peterbanjo/.config/fisherman/bass/functions/bass.fish
