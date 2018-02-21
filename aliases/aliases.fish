@@ -82,6 +82,8 @@ alias gd 'git diff'
 alias gl 'git log --oneline'
 alias glg 'git log --oneline --graph --all --decorate'
 
+alias gmi 'git_branch_name | read -l result; and git checkout $1; and git pull; and git merge $result'
+
 alias gp 'git push'
 alias gpo 'git push -u origin (git rev-parse --abbrev-ref HEAD)'
 alias gpl 'git pull'
