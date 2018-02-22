@@ -92,6 +92,11 @@ alias gpom 'git push -u origin master'
 alias grro 'git remote rm origin '
 alias grao 'git remove add origin '
 
+# show git commit timestamp
+alias gtm 'git show -s --format=%ci'
+# show timestamp of graph search result
+alias gstm 'gl | fzf | string split " " | read -l result; and gtm $result[1]'
+
 # reset to origin/undo git merge
 alias gzmh 'git reset --hard ORIG_HEAD'
 
