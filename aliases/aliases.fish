@@ -22,6 +22,11 @@ alias omfr 'omf remove'
 alias shutdown 'sudo shutdown'
 alias reboot 'sudo reboot'
 
+alias aoeu   'setxkbymap gb -variant dvorak'
+alias aoeu$  'setxkbmap us -variant ,dvorak'
+alias asdf   'setxkbmap gb'
+alias asdf$  'setxkbmap us'
+
 #
 # SSH
 #

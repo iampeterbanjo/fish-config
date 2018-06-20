@@ -1,1 +1,1 @@
-/home/peterbanjo/.config/fisherman/z/functions/__z.fish
+/home/iampeterbanjo/.config/fisherman/z/functions/__z.fish

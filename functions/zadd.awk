@@ -1,1 +1,1 @@
-/home/peterbanjo/.config/fisherman/z/functions/zadd.awk
+/home/iampeterbanjo/.config/fisherman/z/functions/zadd.awk
