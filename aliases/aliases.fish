@@ -22,7 +22,7 @@ alias omfr 'omf remove'
 alias shutdown 'sudo shutdown'
 alias reboot 'sudo reboot'
 
-alias aoeu   'setxkbmap gb -variant dvorak'
+alias aoeu   'setxkbmap gb -variant ,dvorak'
 alias aoeu_us  'setxkbmap us -variant ,dvorak'
 alias asdf   'setxkbmap gb'
 alias asdf_us  'setxkbmap us'
