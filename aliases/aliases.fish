@@ -22,10 +22,10 @@ alias omfr 'omf remove'
 alias shutdown 'sudo shutdown'
 alias reboot 'sudo reboot'
 
-alias aoeu   'setxkbmap gb -variant ,dvorak'
-alias aoeu_us  'setxkbmap us -variant ,dvorak'
-alias asdf   'setxkbmap gb'
-alias asdf_us  'setxkbmap us'
+alias asdfm   'setxkbmap gb -variant ,dvorak'
+alias asdfm_us  'setxkbmap us -variant ,dvorak'
+alias aoeum   'setxkbmap gb'
+alias aoeum_us  'setxkbmap us'
 
 #
 # SSH

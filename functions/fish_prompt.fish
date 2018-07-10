@@ -1,1 +1,1 @@
-/home/peterbanjo/.config/fisherman/dartfish/fish_prompt.fish
+/home/iampeterbanjo/.local/share/omf/themes/trout/fish_prompt.fish

@@ -5,3 +5,4 @@ theme
 completions/
 conf.d/
 fishfile
+.history

@@ -1,1 +1,1 @@
-/home/peterbanjo/.config/fisherman/nvm/functions/nvm_alias_command.fish
+/home/iampeterbanjo/.config/fisherman/nvm/functions/nvm_alias_command.fish
