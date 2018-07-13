@@ -41,6 +41,7 @@ alias reloadfish 'source $fish_config_path/config.fish'
 alias edithosts 'sudo $1 /etc/hosts'
 alias sudo 'sudo '
 alias l 'ls -la'
+alias find_alias 'cat $fish_config_path/aliases/aliases.fish | fzf | string trim | read -l result; and echo $result'
 
 #
 # DEVELOPMENT
@@ -48,7 +49,7 @@ alias l 'ls -la'
 
 alias bsync 'browser-sync start --server . --xip --files="**/*.css, **/*.js, **/*.html" --directory'
 alias testem-proxy 'browser-sync start --proxy localhost:7357 --xip --no-open --port 4000'
-alias rm_node_modules 'rm -rf ./node_modules'
+alias rm-node-modules 'rm -rf ./node_modules'
 
 #
 # GIT
@@ -76,7 +77,17 @@ alias gcob 'git checkout -br'
 # git restore file from last checkout
 alias gcof 'git checkout -- ' #file
 
+# reset and remove folders
+alias gfx 'git clean -ffdx'
+
 alias gd 'git diff'
+alias gro 'git remote get-url origin'
+
+# git submodules
+alias gsub-add 'git submodule add'
+alias gsub-diff 'git diff; git submodule foreach "git diff"'
+alias gsub-push 'git push --recurse-submodules=on-demand'
+alias gsub-up 'git submodule update --remote'
 
 # git log graph
 alias gl 'git log --oneline'
