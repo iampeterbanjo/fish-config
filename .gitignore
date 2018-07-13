@@ -7,3 +7,4 @@ conf.d/
 fishfile
 functions/fish_prompt.*.copy
 .history
+fish_prompt.fish
