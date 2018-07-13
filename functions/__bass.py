@@ -1,1 +1,1 @@
-/home/peterbanjo/.config/fisherman/bass/functions/__bass.py
+/home/iampeterbanjo/.config/fisherman/bass/functions/__bass.py

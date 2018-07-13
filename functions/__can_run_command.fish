@@ -1,1 +1,1 @@
-/home/peterbanjo/.config/fisherman/nvm/__can_run_command.fish
+/home/iampeterbanjo/.config/fisherman/nvm/__can_run_command.fish

@@ -1,0 +1,1 @@
+/home/iampeterbanjo/.config/fisherman/menu/menu.fish

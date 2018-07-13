@@ -5,4 +5,5 @@ theme
 completions/
 conf.d/
 fishfile
-functions/fish_prompt.1530529407.copy
+functions/fish_prompt.*.copy
+.history

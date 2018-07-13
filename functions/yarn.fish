@@ -1,1 +1,1 @@
-/home/peterbanjo/.config/fisherman/nvm/functions/yarn.fish
+/home/iampeterbanjo/.config/fisherman/nvm/functions/yarn.fish
