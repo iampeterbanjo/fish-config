@@ -1,1 +1,1 @@
-/home/iampeterbanjo/.config/fisherman/await/functions/await.fish
+/home/peterbanjo/.config/fisherman/await/functions/await.fish
