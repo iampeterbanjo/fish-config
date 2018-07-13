@@ -1,1 +1,1 @@
-/home/iampeterbanjo/.config/fisherman/z/functions/zclean.awk
+/home/peterbanjo/.config/fisherman/z/functions/zclean.awk
