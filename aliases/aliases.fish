@@ -56,6 +56,9 @@ alias bsync 'browser-sync start --server . --xip --files="**/*.css, **/*.js, **/
 alias testem-proxy 'browser-sync start --proxy localhost:7357 --xip --no-open --port 4000'
 alias rm-node-modules 'rm -rf ./node_modules'
 
+alias package-version 'cat package.json | jq ".version"'
+alias package-name 'cat package.json | jq ".name"'
+
 #
 # GIT
 #
