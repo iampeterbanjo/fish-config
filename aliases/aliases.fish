@@ -58,6 +58,7 @@ alias rm-node-modules 'rm -rf ./node_modules'
 
 alias package-version 'cat package.json | jq ".version"'
 alias package-name 'cat package.json | jq ".name"'
+alias package-info 'cat package.json | jq ". | { name: .name, version: .version, description: .description, scripts: .scripts }"'
 
 #
 # GIT
