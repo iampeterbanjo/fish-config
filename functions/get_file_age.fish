@@ -1,1 +1,1 @@
-/home/iampeterbanjo/.config/fisherman/get_file_age/get_file_age.fish
+/home/peterbanjo/.config/fisherman/get_file_age/get_file_age.fish
