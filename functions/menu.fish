@@ -1,1 +1,1 @@
-/home/iampeterbanjo/.config/fisherman/menu/menu.fish
+/home/peterbanjo/.config/fisherman/menu/menu.fish

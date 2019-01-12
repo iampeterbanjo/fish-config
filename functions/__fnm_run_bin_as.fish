@@ -1,1 +1,1 @@
-/home/iampeterbanjo/.config/fisherman/fnm/functions/__fnm_run_bin_as.fish
+/home/peterbanjo/.config/fisherman/fnm/functions/__fnm_run_bin_as.fish
