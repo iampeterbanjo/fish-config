@@ -17,6 +17,7 @@ case '*'
     echo 'Setting fish_config_path for, stranger!'
 end
 
+set fish_color_autosuggestion yellow --bold
 set -U NODE_PATH (which node)
 set -U NPM_PATH (which npm)
 
