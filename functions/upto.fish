@@ -1,1 +1,1 @@
-/home/peterbanjo/.config/fisherman/upto/upto.fish
+/home/iampeterbanjo/.config/fisherman/upto/upto.fish
