@@ -75,7 +75,7 @@ abbr -a gunu 'git update-index --no-assume-unchanged'
 abbr -a gbr 'git branch'
 abbr -a gbrso 'git branch --set-upstream-to=origin/(git rev-parse --abbrev-ref HEAD) bugfix/CIR-16693-file-import-setting'
 # checkout branches using fzf search
-abbr -a gbrco 'git branch | fzf | string trim | read -l result; and gco $result'
+abbr -a gbrco 'git branch | fzf | string trim | read -l result; and git checkout $result'
 
 abbr -a gm 'git commit --amend -m'
 
