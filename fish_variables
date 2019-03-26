@@ -1,7 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR NODE_PATH:/home/peterbanjo/\x2econfig/fnm/bin/node
-SETUVAR NPM_PATH:/home/peterbanjo/\x2econfig/fnm/bin/npm
+SETUVAR NODE_PATH:/home/iampeterbanjo/\x2econfig/fnm/bin/node
+SETUVAR NPM_PATH:/home/iampeterbanjo/\x2econfig/fnm/bin/npm
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
 SETUVAR Z_DATA:/home/peterbanjo/\x2elocal/share/z/data
@@ -134,7 +134,7 @@ SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrbl
 SETUVAR fish_color_user:brgreen
 SETUVAR fish_color_valid_path:\x2d\x2dunderline
 SETUVAR fish_config_os_aliases:linux\x2efish
-SETUVAR fish_config_path:/home/peterbanjo/\x2econfig/fish
+SETUVAR fish_config_path:/home/iampeterbanjo/\x2econfig/fish
 SETUVAR fish_greeting:Welcome\x20to\x20fish\x2c\x20the\x20friendly\x20interactive\x20shell
 SETUVAR fish_key_bindings:fish_default_key_bindings
 SETUVAR fish_pager_color_completion:\x1d
