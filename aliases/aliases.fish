@@ -73,6 +73,7 @@ abbr -a guau 'git update-index --assume-unchanged'
 abbr -a gunu 'git update-index --no-assume-unchanged'
 
 abbr -a gbr 'git branch'
+abbr -a gbm 'git branch | fzf | string trim | read -l result; and git merge $result[1]'
 abbr -a gbrso 'git branch --set-upstream-to=origin/(git rev-parse --abbrev-ref HEAD) bugfix/CIR-16693-file-import-setting'
 # checkout branches using fzf search
 abbr -a gbrco 'git branch | fzf | string trim | read -l result; and git checkout $result'
@@ -144,7 +145,7 @@ abbr -a gra 'git remote add'
 #
 
 abbr -a gf 'git feature'
-abbr -a gff 'git branch | fzf | string trim | read -l result; and git feature finish $result[1]'
+abbr -a gff 'git feature finish'
 abbr -a gb 'git bug'
 abbr -a gbf 'git bug finish'
 
