@@ -73,7 +73,6 @@ abbr -a guau 'git update-index --assume-unchanged'
 abbr -a gunu 'git update-index --no-assume-unchanged'
 
 abbr -a gbr 'git branch'
-abbr -a gbm 'git branch | fzf | string trim | read -l result; and git merge $result[1]'
 abbr -a gbrso 'git branch --set-upstream-to=origin/(git rev-parse --abbrev-ref HEAD) bugfix/CIR-16693-file-import-setting'
 # checkout branches using fzf search
 abbr -a gbrco 'git branch | fzf | string trim | read -l result; and git checkout $result'
@@ -116,7 +115,7 @@ abbr -a grao 'git remove add origin '
 # show git commit timestamp
 abbr -a gtm 'git show -s --format=%ci'
 # show timestamp of graph search result
-abbr -a gstm 'gl | fzf | string split " " | read -l result; and git show -s --format=%ci $result[1]'
+abbr -a gstm 'gl | fzf | string split " " | read -l result; and gtm $result[1]'
 
 # reset to origin/undo git merge
 abbr -a gzmh 'git reset --hard ORIG_HEAD'
