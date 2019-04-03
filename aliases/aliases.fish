@@ -22,10 +22,10 @@ abbr -a omfr 'omf remove'
 abbr -a shutdown 'sudo shutdown'
 abbr -a reboot 'sudo reboot'
 
-abbr -a asdfm   'setxkbmap gb -variant ,dvorak'
-abbr -a asdfm_us  'setxkbmap us -variant ,dvorak'
-abbr -a aoeum   'setxkbmap gb'
-abbr -a aoeum_us  'setxkbmap us'
+abbr -a asdfm 'setxkbmap gb -variant ,dvorak'
+abbr -a asdfm_us 'setxkbmap us -variant ,dvorak'
+abbr -a aoeum 'setxkbmap gb'
+abbr -a aoeum_us 'setxkbmap us'
 
 #
 # SSH
@@ -76,6 +76,7 @@ abbr -a gbr 'git branch'
 abbr -a gbrso 'git branch --set-upstream-to=origin/(git rev-parse --abbrev-ref HEAD) bugfix/CIR-16693-file-import-setting'
 # checkout branches using fzf search
 abbr -a gbrco 'git branch | fzf | string trim | read -l result; and git checkout $result'
+abbr -a gbm 'git branch | fzf | string trim | read -l result; and git merge $result'
 
 abbr -a gm 'git commit --amend -m'
 
