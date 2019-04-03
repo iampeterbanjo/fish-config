@@ -76,6 +76,7 @@ abbr -a gbr 'git branch'
 abbr -a gbrso 'git branch --set-upstream-to=origin/(git rev-parse --abbrev-ref HEAD) bugfix/CIR-16693-file-import-setting'
 # checkout branches using fzf search
 abbr -a gbrco 'git branch | fzf | string trim | read -l result; and git checkout $result'
+abbr -a gbd 'git branch | fzf | string trim | read -l result; and git branch -d $result'
 abbr -a gbm 'git branch | fzf | string trim | read -l result; and git merge $result'
 
 abbr -a gm 'git commit --amend -m'
