@@ -10,7 +10,6 @@ abbr -a code '/usr/share/code/code'
 # SYSTEM
 #
 
-abbr -a sudo 'sudo '
 abbr -a ai 'sudo apt-get install'
 abbr -a aar 'sudo apt-add-repository'
 abbr -a au 'sudo apt-get update'
