@@ -38,12 +38,10 @@ abbr -a sshaddkey 'ssh-agent -s; ssh-add'
 # MAINTENANCE
 #
 
-abbr -a sudo 'sudo '
 abbr -a aliases 'cat $fish_config_path/aliases.fish'
 abbr -a editfish '$fish_config_path/config.fish'
 abbr -a reloadfish 'source $fish_config_path/config.fish'
 abbr -a edithosts 'sudo $1 /etc/hosts'
-abbr -a sudo 'sudo '
 abbr -a l 'ls -la'
 abbr -a find_abbr -a 'cat $fish_config_path/aliases/aliases.fish | fzf | string trim | read -l result; and echo $result'
 
