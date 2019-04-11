@@ -143,9 +143,9 @@ abbr -a gra 'git remote add'
 #
 
 abbr -a gf 'git feature'
-abbr -a gff 'git feature finish'
+abbr -a gff 'git branch | fzf | string trim | read -l result; and git feature finish $result'
 abbr -a gb 'git bug'
-abbr -a gbf 'git bug finish'
+abbr -a gbf 'git branch | fzf | string trim | read -l result; and git bug finish $result'
 
 #
 # VAGRANT
