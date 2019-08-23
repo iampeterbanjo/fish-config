@@ -9,3 +9,4 @@ functions/fish_prompt.*.copy
 .history
 fish_prompt.fish
 fish_variables
+functions/

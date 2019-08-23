@@ -1,1 +1,0 @@
-/home/peterbanjo/.config/fisherman/upto/upto.fish
