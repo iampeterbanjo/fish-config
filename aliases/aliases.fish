@@ -138,6 +138,8 @@ abbr -a gpp-pages 'git checkout gh-pages ; git merge master ; git checkout maste
 
 abbr -a gra 'git remote add'
 
+abbr -a git-churn 'git log --name-only | egrep -v \'^$\' | sort | uniq -c | sort -r | head -5'
+
 #
 # GIT EXTRAS
 #
