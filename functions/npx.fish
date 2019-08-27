@@ -1,1 +1,0 @@
-/home/iampeterbanjo/.config/fisherman/nvm/functions/npx.fish

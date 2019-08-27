@@ -10,3 +10,4 @@ functions/fish_prompt.*.copy
 fish_prompt.fish
 fish_variables
 .envrc
+functions/

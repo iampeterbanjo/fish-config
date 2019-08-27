@@ -1,1 +1,0 @@
-/home/peterbanjo/.config/fisherman/menu/menu.fish

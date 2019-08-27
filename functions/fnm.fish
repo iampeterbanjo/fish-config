@@ -1,1 +1,0 @@
-/home/peterbanjo/.config/fisherman/fnm/functions/fnm.fish
