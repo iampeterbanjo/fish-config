@@ -76,7 +76,11 @@ abbr -a gbrco 'git branch | fzf | string trim | read -l result; and git checkout
 abbr -a gbd 'git branch | fzf | string trim | read -l result; and git branch -d $result'
 abbr -a gbm 'git branch | fzf | string trim | read -l result; and git merge $result'
 
-abbr -a gm 'git commit --amend -m'
+abbr -a gca 'git commit --amend -m'
+# merge to develop
+abbr -a gmd 'git rev-parse --abbrev-ref HEAD | string trim | read -l result; and git checkout develop; git merge $result'
+# merge to master
+abbr -a gmm 'git rev-parse --abbrev-ref HEAD | string trim | read -l result; and git checkout master; git merge $result'
 
 abbr -a gc 'git commit -am'
 abbr -a gcl 'git clone'
