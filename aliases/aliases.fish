@@ -1,5 +1,7 @@
 echo 'Setting aliases'
 
+alias please sudo
+
 #
 # EDITORS
 #
