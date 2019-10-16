@@ -144,7 +144,8 @@ abbr -a gpp-pages 'git checkout gh-pages ; git merge master ; git checkout maste
 
 abbr -a gra 'git remote add'
 
-abbr -a git-churn 'git log --name-only | egrep -v \'^$\' | sort | uniq -c | sort -r | head -5'
+abbr -a git-cred-cache 'git config --global credential.helper cache' # start credentials cache
+abbr -a git-churn 'git log --name-only | egrep -v \'^$\' | sort | uniq -c | sort -r | head -5' # files by code churn
 
 #
 # GIT EXTRAS
