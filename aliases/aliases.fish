@@ -201,6 +201,8 @@ abbr -a dkr-prune-images 'docker images --no-trunc | grep "<none>" | awk "{ prin
 #
 
 abbr -a tweet 'twit-cli tweet'
+abbr -a code-here 'quietly.sh code . &'
+abbr -a local-verdaccio 'quietly.sh ~/verdaccio-local.sh'
 
 #
 # DIRECTORIES
