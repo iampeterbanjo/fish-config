@@ -9,7 +9,7 @@ case Linux
     set -U fish_config_os_aliases linux.fish
 case Darwin
     echo 'Setting fish_config_path for Hexley!'
-    set -U fish_config_path ~/.config/fish/conf.d
+    set -U fish_config_path ~/.config/fish
     set -U fish_config_os_aliases osx.fish
 case FreeBSD NetBSD DragonFly
     echo 'Setting fish_config_path for Beastie!'
@@ -28,8 +28,4 @@ source $fish_config_path/aliases/$fish_config_os_aliases
 eval (direnv hook fish)
 
 # use asdf.fish
-source ~/.asdf/asdf.fish
-source ~/.asdf/asdf.fish
-source ~/.asdf/asdf.fish
-source ~/.asdf/asdf.fish
-source ~/.asdf/asdf.fish
+# source ~/.asdf/asdf.fish
