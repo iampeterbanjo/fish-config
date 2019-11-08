@@ -6,7 +6,10 @@ alias please sudo
 # EDITORS
 #
 
-abbr -a code '/usr/share/code/code'
+switch (uname)
+    case Linux
+        abbr -a code '/usr/share/code/code'
+end
 
 #
 # SYSTEM
