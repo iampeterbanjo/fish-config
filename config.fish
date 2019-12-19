@@ -29,7 +29,6 @@ eval (direnv hook fish)
 
 # use asdf.fish
 source ~/.asdf/asdf.fish
-source ~/.asdf/asdf.fish
-source ~/.asdf/asdf.fish
-source ~/.asdf/asdf.fish
-source ~/.asdf/asdf.fish
+
+# starship.rs prompt
+starship init fish | source
