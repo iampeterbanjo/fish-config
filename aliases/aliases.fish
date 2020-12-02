@@ -207,6 +207,10 @@ abbr -a tweet 'twit-cli tweet'
 abbr -a code-here 'quietly.sh code . &'
 abbr -a local-verdaccio 'quietly.sh ~/verdaccio-local.sh'
 
+# list node_modules size
+abbr -a inspect-node-modules 'find . -name "node_modules" -type d -prune -print | xargs du -chs'
+abbr -a delete-node-modules 'find . -name "node_modules" -type d -prune -print -exec rm -rf "{}" \;'
+
 #
 # DIRECTORIES
 #
