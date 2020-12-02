@@ -36,3 +36,4 @@ source ~/.asdf/asdf.fish
 
 # starship.rs prompt
 starship init fish | source
+source ~/.asdf/asdf.fish
