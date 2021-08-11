@@ -43,11 +43,12 @@ abbr -a sshaddkey 'ssh-agent -s; ssh-add'
 # MAINTENANCE
 #
 
+abbr -a cat 'bat'
 abbr -a aliases 'cat $fish_config_path/aliases.fish'
 abbr -a editfish '$fish_config_path/config.fish'
 abbr -a reloadfish 'source $fish_config_path/config.fish'
 abbr -a edithosts 'sudo $1 /etc/hosts'
-abbr -a l 'ls -la'
+abbr -a ll 'exa -la'
 abbr -a find_abbr -a 'cat $fish_config_path/aliases/aliases.fish | fzf | string trim | read -l result; and echo $result'
 
 #
@@ -210,6 +211,10 @@ abbr -a local-verdaccio 'quietly.sh ~/verdaccio-local.sh'
 # list node_modules size
 abbr -a inspect-node-modules 'find . -name "node_modules" -type d -prune -print | xargs du -chs'
 abbr -a delete-node-modules 'find . -name "node_modules" -type d -prune -print -exec rm -rf "{}" \;'
+
+
+# install package after search
+abbr -a apa 'asdf plugin-list-all | fzf | xargs -I % asdf plugin-add "%"'
 
 #
 # DIRECTORIES
