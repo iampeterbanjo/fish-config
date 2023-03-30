@@ -1,3 +1,4 @@
+
 #
 # SYSTEM SPECIFIC
 #
@@ -67,8 +68,9 @@ and source (rbenv init -|psub)
 eval (direnv hook fish)
 
 # use asdf.fish
-source ~/.asdf/asdf.fish
+source (brew --prefix asdf)/libexec/asdf.fish
 
 # starship.rs prompt
 # starship init fish | source
-source ~/.asdf/asdf.fish
+# iTerm2 shell integration
+source ~/.iterm2_shell_integration.fish

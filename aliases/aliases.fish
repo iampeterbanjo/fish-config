@@ -71,7 +71,7 @@ abbr -a g-email 'git config --global user.email'
 abbr -a g-name 'git config --global user.name'
 
 abbr -a ga 'git add -A'
-abbr -a gac 'git add -A; git commit -am'
+abbr -a gac 'git add -A && git commit -m'
 abbr -a guau 'git update-index --assume-unchanged'
 abbr -a gunu 'git update-index --no-assume-unchanged'
 
