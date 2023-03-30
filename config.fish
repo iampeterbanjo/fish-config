@@ -57,7 +57,7 @@ set __fish_git_prompt_char_upstream_behind ' 👇  '
 set __fish_git_prompt_char_upstream_diverged ' 🚧  '
 set __fish_git_prompt_char_upstream_equal ' 💯 '
 
-source $fish_config_path/aliases/aliases.fish
+# source $fish_config_path/aliases/aliases.fish
 source $fish_config_path/aliases/$fish_config_os_aliases
 
 # fix ruby versions
