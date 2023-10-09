@@ -67,8 +67,20 @@ and source (rbenv init -|psub)
 eval (direnv hook fish)
 
 # use asdf.fish
-source ~/.asdf/asdf.fish
+# source ~/.asdf/asdf.fish
 
 # starship.rs prompt
 # starship init fish | source
-source ~/.asdf/asdf.fish
+# source ~/.asdf/asdf.fish
+
+source /opt/homebrew/opt/asdf/libexec/asdf.fish
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+if test -f /Users/iampeterbanjo/anaconda3/bin/conda
+    eval /Users/iampeterbanjo/anaconda3/bin/conda "shell.fish" "hook" $argv | source
+end
+# <<< conda initialize <<<
+
+
+thefuck --alias | source
