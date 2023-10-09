@@ -1,3 +1,4 @@
+
 #
 # SYSTEM SPECIFIC
 #
@@ -56,7 +57,7 @@ set __fish_git_prompt_char_upstream_behind ' 👇  '
 set __fish_git_prompt_char_upstream_diverged ' 🚧  '
 set __fish_git_prompt_char_upstream_equal ' 💯 '
 
-source $fish_config_path/aliases/aliases.fish
+# source $fish_config_path/aliases/aliases.fish
 source $fish_config_path/aliases/$fish_config_os_aliases
 
 # fix ruby versions
@@ -65,15 +66,6 @@ and source (rbenv init -|psub)
 
 # enable direnv
 eval (direnv hook fish)
-
-# use asdf.fish
-# source ~/.asdf/asdf.fish
-
-# starship.rs prompt
-# starship init fish | source
-# source ~/.asdf/asdf.fish
-
-source /opt/homebrew/opt/asdf/libexec/asdf.fish
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -84,3 +76,9 @@ end
 
 
 thefuck --alias | source
+source (brew --prefix asdf)/libexec/asdf.fish
+
+# starship.rs prompt
+# starship init fish | source
+# iTerm2 shell integration
+source ~/.iterm2_shell_integration.fish
