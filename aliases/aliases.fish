@@ -1,6 +1,7 @@
 echo 'Setting aliases'
 
 alias please sudo
+alias try fuck
 
 #
 # SYSTEM

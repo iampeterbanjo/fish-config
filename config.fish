@@ -80,5 +80,3 @@ source (brew --prefix asdf)/libexec/asdf.fish
 
 # starship.rs prompt
 # starship init fish | source
-# iTerm2 shell integration
-source ~/.iterm2_shell_integration.fish
